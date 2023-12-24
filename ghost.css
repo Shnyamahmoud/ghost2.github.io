@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(96, 124, 201);
+  
+}
+.box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h2::selection{
+    background-color: pink;
+    color: white;
+}
+.curse{
+    display: flex;
+    color: rgb(226, 95, 171);
+    font-family: cursive;
+    height: 30px;
+    
+}
+.kawai{
+    width: 250px;
+    height: 250px;
+}
